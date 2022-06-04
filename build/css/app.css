@@ -400,7 +400,7 @@ body {
 p {
   font-size: 1rem;
   padding-top: 1rem;
-  color: #0f0f0f;
+  color: white;
   text-transform: uppercase;
   display: block;
   margin-block-start: 0px;
@@ -887,11 +887,11 @@ h4 {
 }
 
 .bg-blue {
-  background-color: #141446;
+  background-color: #ff0000;
 }
 
 .contenedor-left {
-  background: #0f2980;
+  background: #ff0056;
   text-transform: uppercase;
   width: 500px;
   position: absolute;
@@ -1181,9 +1181,8 @@ h3 {
 }
 
 .documental .cuadro .reproducir__lev p:hover {
-  background: linear-gradient(144deg, #ff7a05 0%, #ff0000 100%);
-  filter: invert(100%);
-  transition: filter .5s;
+  background: linear-gradient(144deg, #ff0056 0%, #ff6600 100%);
+  transition: filter .7s;
 }
 
 .sponsors {
@@ -1409,7 +1408,7 @@ h3 {
   height: 100%;
   width: 100%;
   background-color: rgba(0, 18, 39, 0.73);
-  border: 1px solid #032145;
+  border: 1px solid #ff0000;
 }
 
 .noticias .noticia-secundaria .fondo__overlay:hover {
@@ -1504,14 +1503,14 @@ h3 {
 }
 
 .noticias .titulo-noticia-secundaria b {
-  background-color: #03b7ff;
+  background-color: #e60404;
   padding: .6rem;
   font-size: 1.2rem;
   color: #1d1c1c;
 }
 
 .fecha-noticia-secundaria {
-  color: #03b7ff !important;
+  color: white !important;
 }
 
 .noticias .descripcion-noticia-secundaria {
@@ -1690,7 +1689,7 @@ h3 {
 
 .shop .imgOverlay .cuadro .comprar__lev button {
   background: #333;
-  color: #ccc;
+  color: #ff0056;
   width: 200px;
   height: 60px;
   border: 0;
@@ -1734,7 +1733,7 @@ h3 {
 }
 
 .shop .imgOverlay .cuadro .comprar__lev button:hover {
-  background: #338033;
+  background: #ff0056;
   cursor: pointer;
 }
 
@@ -1755,7 +1754,7 @@ h3 {
 }
 
 .shop .imgOverlay .cuadro .comprar__lev span {
-  color: #aaaaaa;
+  color: #ff0056;
   font-family: "Microgramma", sans-serif !important;
   font-weight: lighter;
 }
@@ -1771,9 +1770,8 @@ h3 {
 }
 
 .shop .imgOverlay .cuadro .comprar__lev p:hover {
-  background: linear-gradient(144deg, #ff0000 0%, #ff0056 100%);
-  filter: invert(100%);
-  transition: filter .5s;
+  background: linear-gradient(144deg, #ff0056 0%, #ff6600 100%);
+  transition: filter .7s;
 }
 
 .equipos {
