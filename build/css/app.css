@@ -2156,7 +2156,16 @@ h3 {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   justify-content: center;
-  font-size: 3vw;
+}
+@media (min-width: 1490px) {
+  .creadores__flex {
+    font-size: 100%;
+  }
+}
+@media (min-width: 100px) {
+  .creadores__flex {
+    font-size: 80%;
+  }
 }
 
 .creadores__rrss {
