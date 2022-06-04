@@ -2156,15 +2156,8 @@ h3 {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   justify-content: center;
-  font-size: 6rem;
+  font-size: 3vw;
 }
-
-@media screen and (min-device-width: 414px) and (max-device-width: 768px) {
-  .creadores__flex {
-    font-size: 80%;
-  }
-}
-
 
 .creadores__rrss {
   text-align: center;
