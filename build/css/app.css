@@ -380,7 +380,7 @@ body {
   font-family: "Microgramma", sans-serif !important;
   font-size: 1rem;
   letter-spacing: 3px;
-  background: #202020;
+  background: #0e0d0d;
 }
 
 @media (min-width: 769px) {
@@ -1196,7 +1196,7 @@ h3 {
   /* max-width: 120rem; */
   padding: 1rem;
   text-align: center;
-  background: #252525;
+  background: #0e0d0d;
   color: #f7f7f7;
   border-radius: 8px;
 }
@@ -1260,7 +1260,7 @@ h3 {
 }
 
 .noticias {
-  background-color: #001227;
+  background-color: #0e0d0d;
   background-size: contain;
   color: #f7f7f7;
   text-align: center;
@@ -2158,6 +2158,12 @@ h3 {
   justify-content: center;
 }
 
+@media screen and (min-width: 601px) {
+  .creadores__flex {
+    font-size: 70px;
+  }
+}
+
 .creadores__rrss {
   text-align: center;
 }
@@ -2734,7 +2740,7 @@ h3 {
 }
 
 .inner-body {
-  background-color: #090909;
+  background-color: #0e0d0d;
   padding: 34px 30px;
   margin-bottom: 50px;
   color: white;
@@ -3680,5 +3686,14 @@ h3 {
     display: flex;
     place-items: center;
     justify-content: space-evenly;
+  }
+}
+@media screen and (min-width: 601px) {
+  .twitch-player {
+    display: flex;
+    place-items: center;
+    justify-content: space-evenly;
+    min-height: fit-content;
+    min-width: fit-content;
   }
 }
