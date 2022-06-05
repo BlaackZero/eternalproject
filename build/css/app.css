@@ -484,7 +484,7 @@ h4 {
   background: #9a0702;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 614px) {
   .separacion {
     display: flex;
   }
@@ -1168,6 +1168,11 @@ h3 {
   padding-top: 0;
 }
 
+@media (max-width: 414px) {
+  .episodio__lev{
+    font-size: 80%;
+  }
+}  
 .documental .cuadro .descripcion__lev p {
   color: #ebebeb;
   font-family: 'Montserrat', sans-serif;
@@ -3707,11 +3712,5 @@ h3 {
     justify-content: space-evenly;
     min-height: fit-content;
     min-width: fit-content;
-  }
-}
-@media screen and (max-width: 414px) {
-  .cuadro {
-    padding: 3rem;
-    font-size: 80%;
   }
 }
