@@ -409,16 +409,9 @@ p {
   margin-inline-end: 0px;
 }
 
-@media (min-width: 769px) {
-  p {
-    font-size: 1.4rem;
-    letter-spacing: 3px;
-  }
-}
-
 @media (min-width: 1200px) {
   p {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     letter-spacing: 3px;
   }
 }
@@ -1153,7 +1146,7 @@ h3 {
 }
 
 .documental .cuadro {
-  padding: 10rem;
+  padding: 3rem;
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 4rem;
@@ -3714,5 +3707,11 @@ h3 {
     justify-content: space-evenly;
     min-height: fit-content;
     min-width: fit-content;
+  }
+}
+@media screen and (max-width: 414px) {
+  .cuadro {
+    padding: 3rem;
+    font-size: 80%;
   }
 }
