@@ -484,7 +484,7 @@ h4 {
   background: #9a0702;
 }
 
-@media (min-width: 614px) {
+@media (min-width: 600px) {
   .separacion {
     display: flex;
   }
