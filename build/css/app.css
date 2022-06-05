@@ -491,6 +491,12 @@ h4 {
   background: #9a0702;
 }
 
+@media (min-width: 769px) {
+  .separacion {
+    display: flex;
+  }
+}
+
 .separacionhead {
   height: .4rem;
   background: linear-gradient(to right, #ff255c, #9a0702);
@@ -1051,7 +1057,7 @@ h3 {
 }
 
 .documental {
-  position: relative;
+  position: flex;
   height: 60vh;
   overflow: hidden;
 }
@@ -1086,7 +1092,6 @@ h3 {
     align-items: center;
   }
 }
-
 .documental .imgPrincipal {
   margin: 0 auto;
   margin-bottom: -1rem;
@@ -1094,15 +1099,27 @@ h3 {
   overflow: hidden;
 }
 
-.documental .imgOverlay {
+.imgOverlay {
   position: absolute;
-  display: flex;
-  background: rgba(0, 0, 0, 0.4);
+  display: block;
   width: 100%;
-  height: 100%;
   z-index: 10;
   align-items: center;
   overflow: hidden;
+}
+@media (min-width: 400px) {
+  .imgOverlay {
+    font-size: 50%;
+  }
+}
+
+@media (min-width: 769px) {
+  .documental video {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 110%;
+    height: auto;
+  }
 }
 
 .documental video {
