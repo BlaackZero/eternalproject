@@ -3691,7 +3691,14 @@ h3 {
 .letrascontacto {
   font-size: 3rem;
   color: #ee7504;
+  display: center;
 }
+@media (max-width: 700px) {
+  .letrascontacto {
+    font-size: 100%;
+  }
+}
+
 @media (min-width: 769px) {
   .calendario__team {
     display: grid;
