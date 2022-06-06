@@ -2362,7 +2362,6 @@ h3 {
 }
 
 .contacto {
-  min-height: 100vh;
   margin: 0 auto;
   font-family: "Montserrat", sans-serif;
   letter-spacing: .1rem;
@@ -2428,6 +2427,7 @@ h3 {
   width: 70%;
   margin: 0 auto;
   text-align: center;
+  font-size: 2rem;
 }
 
 .contacto .recuadro__inferior {
@@ -3688,6 +3688,10 @@ h3 {
   justify-content: space-evenly; 
 }
 
+.letrascontacto {
+  font-size: 3rem;
+  color: #ee7504;
+}
 @media (min-width: 769px) {
   .calendario__team {
     display: grid;
