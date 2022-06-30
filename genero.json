@@ -1,0 +1,34 @@
+[
+  {
+    "idgenero": 1, 
+    "nombregenero": "M\u00e1sculino"
+  }, 
+  {
+    "idgenero": 2, 
+    "nombregenero": "Femenino"
+  }, 
+  {
+    "idgenero": 3, 
+    "nombregenero": "Binario"
+  }, 
+  {
+    "idgenero": 4, 
+    "nombregenero": "Otro"
+  }, 
+  {
+    "idgenero": 8, 
+    "nombregenero": "Hola1"
+  }, 
+  {
+    "idgenero": 9, 
+    "nombregenero": "Hola2"
+  }, 
+  {
+    "idgenero": 10, 
+    "nombregenero": "Hola3"
+  }, 
+  {
+    "idgenero": 11, 
+    "nombregenero": "Prueba"
+  }
+]
